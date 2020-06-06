@@ -1,0 +1,374 @@
+*{
+  margin: 0;
+}
+body{
+background-color:white;
+margin: auto;
+height: 100vh;
+  
+
+line-height: 1.2;
+letter-spacing: 1px;
+
+}
+h1{
+ 
+  font-size:2rem;
+  
+  
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color:  #E43F5A;
+  margin: 1px solid red;
+}
+.background1{
+  display: flex;
+  align-content: flex-start;
+  animation: intern  forwards ease 5s;
+ 
+  
+}
+.bar{
+  
+  display: block;
+  border: 1px solid rgba(0, 0,0.3);
+  height: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 2px #252525;
+}
+.copyright{
+  padding-bottom: 8%;
+  display: flex;
+  justify-content: center;
+}
+.contactme{
+  background-color: #252525;
+  
+  color: #ffffff;
+}
+.contact-icons{
+  display: flex;
+  
+  justify-content:center;
+  
+  padding:  0 7% 2%;
+
+  
+}
+h3:hover{
+  background-color: hotpink;
+}
+.home{
+
+  padding:15% 15% 21%;
+  
+}
+
+.icon-1{
+  padding: 0 30px;
+}
+.icon-2{
+  padding: 0 30px;
+}
+.icon-3{
+  padding:0 30px;
+}
+.i1{
+  padding-left: 8px;
+}
+.i2{
+  padding-left: 8px;
+}
+.i3{
+  padding-left: 10px;
+}
+.i4{
+  padding-left:6px;
+}
+.i5{
+  padding-left:8px;
+}
+.burger{
+  display: none;
+}
+.burger div{
+  width:25px ;
+  height: 4px;
+  margin: 5px;
+  background-color: #E43F5A;
+  transition: all 0.3s ease;
+}
+.bar span{
+  height: 4px;
+  float: left;
+  background-color: #E43F5A;
+}
+.look{
+  color:#1B6CA8;
+  padding-bottom: 35px;
+  font-size: 3rem;
+}
+.logo{
+  margin-right: 10rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.navigation{
+  font-family: "Manrope";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#252525;
+  padding:20px;
+  color: aliceblue;
+  letter-spacing: 3px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+  z-index: 1;
+
+}
+
+.nav-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding-right: 10px;
+
+}
+.para1{
+  
+  color:#FAFAFA;
+  font-size: 1.7rem;
+  padding:12% 15% 12% 15%;
+  
+  align-content:left;
+
+  
+  
+}
+.aboutme{
+  background-color:#252525;
+  padding: 3%;
+  
+ 
+}
+.skills{
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+}
+.skillspara{
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  
+}
+.skills-grid1{
+  display: grid;
+
+}
+.text1{
+  font-size: 1.7rem;
+  color: #333333;
+  letter-spacing: 1px;
+  animation: intern  forwards ease 6s;
+}
+.h1skills{
+  display: flex;
+  font-size: 2.5rem;
+  align-content: flex-start;
+  padding-bottom: 3rem;
+  
+}
+.html{
+  width: 90%;
+  animation: html 6s ;
+}
+.css{
+  width: 80%;
+  animation: css  6s ;
+}
+.js{
+  width: 70%;
+  animation: js 6s ;
+}
+.nodejs{
+  width: 65%;
+  animation: nodejs 6s ;
+}
+.java{
+  width: 80%;
+  animation: java  6s ;
+}
+.thanks{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 7% ;
+}
+.padthanks{
+  padding-right: 20px;
+ 
+}
+@media only screen and (max-width:1000px){
+  .nav-links{
+    width:60%;
+  
+  }
+}
+
+@media only screen and (max-width:768px){
+  
+  .burger{
+    display: block;
+    cursor: pointer;
+    padding-right: 40px;
+  }
+  .look{
+    padding-top: 25%;
+    font-size: 2.1rem;
+  }
+  .thanks{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+  .text1{
+    font-size: 1.10rem;
+    text-align: left;
+    padding: 1px;
+  }
+
+  .para1{
+    font-size: 1.10rem;
+    text-align: left;
+  }
+  body{
+    overflow-x: hidden;
+    background-color:white;
+    margin: auto;
+    height: 100vh;
+   
+    line-height: 1.2;
+    letter-spacing: 1px;
+    
+    }
+    .h1skills{
+      font-size: 2.2rem;
+    }
+    .padthanks{
+      padding-bottom: 20px;
+    }
+    .contactme{
+      padding-top: 10px;
+    }
+    .nav-links{
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color:#252525;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      transform: translateX(100% );
+      transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+      opacity: 0;
+  
+    }
+}
+
+
+
+
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  
+}
+
+
+@keyframes html{
+  from{
+      width: 0;
+  }
+  to{
+      width:90%;
+  }
+}
+@keyframes css{
+  from{
+      width: 0;
+  }
+  to{
+      width:80%;
+  }
+}
+@keyframes java{
+  from{
+      width: 0;
+  }
+  to{
+      width:80%;
+  }
+}
+@keyframes js{
+  from{
+      width: 0;
+  }
+  to{
+      width:70%;
+  }
+}
+@keyframes nodejs{
+  from{
+      width: 0;
+  }
+  to{
+      width:65%;
+  }
+}
+
+
+.toggloo .line1{
+  transform: rotate(-45deg) translate(-6px,6px);
+}
+.toggloo .line2{
+  opacity: 0;
+}
+.toggloo .line3{
+  transform: rotate(45deg) translate(-6px,-6px);
+}
+
+@keyframes intern{
+  from{
+    opacity: 0;
+  }
+  to{
+   opacity: 1;
+  }
+}
